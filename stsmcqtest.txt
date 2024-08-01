@@ -1,0 +1,31 @@
+B. whoami
+E. help
+J. file permissions
+B. ls
+D. current directory
+D. changes to /a/b directory
+A. git add
+B. source code
+C. currently checked out branch
+A. copy file1 to file 2
+
+
+Git is a version control system which helps tracks changes to files.
+
+Importance of GIT
+Git is important for keeping track of changes in files.
+Git helps in reverting changes hence making it easy to restore files.
+
+What are the various steps / commands you’ll use to create a frontend/backend project
+ and push it to github? Note: A complete newbie with git already installed should be able to
+ follow your steps with ease
+i.create a new directory: mkdir project directory, cd frontend
+ii. create frontend directory: mkdir frontend,
+iii. intitialize git: git init
+iv. navigate to frontend directory: cd frontend
+v. intial commit message: git add . , git commit -m "initial commit"
+vi. create github repo and name it 
+vii.connect local repo to github: git remote add origin <repo link>
+viii.push to github: git push -u origin master
+
+
